@@ -1,0 +1,13 @@
+C:\Users\Sahithi.P\source\repos\GenericsTestMaximumProgram\GenericsTestMaximumProgram\bin\Debug\netcoreapp3.1\GenericsTestMaximumProgram.exe
+C:\Users\Sahithi.P\source\repos\GenericsTestMaximumProgram\GenericsTestMaximumProgram\bin\Debug\netcoreapp3.1\GenericsTestMaximumProgram.deps.json
+C:\Users\Sahithi.P\source\repos\GenericsTestMaximumProgram\GenericsTestMaximumProgram\bin\Debug\netcoreapp3.1\GenericsTestMaximumProgram.runtimeconfig.json
+C:\Users\Sahithi.P\source\repos\GenericsTestMaximumProgram\GenericsTestMaximumProgram\bin\Debug\netcoreapp3.1\GenericsTestMaximumProgram.runtimeconfig.dev.json
+C:\Users\Sahithi.P\source\repos\GenericsTestMaximumProgram\GenericsTestMaximumProgram\bin\Debug\netcoreapp3.1\GenericsTestMaximumProgram.dll
+C:\Users\Sahithi.P\source\repos\GenericsTestMaximumProgram\GenericsTestMaximumProgram\bin\Debug\netcoreapp3.1\GenericsTestMaximumProgram.pdb
+C:\Users\Sahithi.P\source\repos\GenericsTestMaximumProgram\GenericsTestMaximumProgram\obj\Debug\netcoreapp3.1\GenericsTestMaximumProgram.csproj.AssemblyReference.cache
+C:\Users\Sahithi.P\source\repos\GenericsTestMaximumProgram\GenericsTestMaximumProgram\obj\Debug\netcoreapp3.1\GenericsTestMaximumProgram.AssemblyInfoInputs.cache
+C:\Users\Sahithi.P\source\repos\GenericsTestMaximumProgram\GenericsTestMaximumProgram\obj\Debug\netcoreapp3.1\GenericsTestMaximumProgram.AssemblyInfo.cs
+C:\Users\Sahithi.P\source\repos\GenericsTestMaximumProgram\GenericsTestMaximumProgram\obj\Debug\netcoreapp3.1\GenericsTestMaximumProgram.csproj.CoreCompileInputs.cache
+C:\Users\Sahithi.P\source\repos\GenericsTestMaximumProgram\GenericsTestMaximumProgram\obj\Debug\netcoreapp3.1\GenericsTestMaximumProgram.dll
+C:\Users\Sahithi.P\source\repos\GenericsTestMaximumProgram\GenericsTestMaximumProgram\obj\Debug\netcoreapp3.1\GenericsTestMaximumProgram.pdb
+C:\Users\Sahithi.P\source\repos\GenericsTestMaximumProgram\GenericsTestMaximumProgram\obj\Debug\netcoreapp3.1\GenericsTestMaximumProgram.genruntimeconfig.cache
