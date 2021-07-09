@@ -12,10 +12,13 @@ namespace unittest
    
             
                 //Max Number at 1st Position
-                float firstValue = 25.5f, secondValue = 30.5f, thirdValue = 40.5f;
+                //Arrange
+                float firstValue = 25.5f, secondValue = 30.5f, thirdValue = 40.5f
                 float expected = 40.5f;
+               //Act
                 FindMaximum find = new FindMaximum();
                 float actual = find.MaximumValue(firstValue, secondValue, thirdValue);
+               //Assert
                 Assert.AreEqual(expected, actual);
             }
             [TestMethod]
