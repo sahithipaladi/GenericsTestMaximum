@@ -25,7 +25,7 @@ namespace unittest
             public void TestMethod2()
             {
                 //Max Number at 2nd Position
-                float firstValue = 25.5f, secondValue = 30.5f, thirdValue = 40.5f;
+                float firstValue = 30.5f, secondValue = 25.5f, thirdValue = 40.5f;
                 float expected = 40.5f;
                 FindMaximum find = new FindMaximum();
                 float actual = find.MaximumValue(firstValue, secondValue, thirdValue);
@@ -35,7 +35,7 @@ namespace unittest
             public void TestMethod3()
             {
                 //Max Number at 3rd Position
-                float firstValue = 25.5f, secondValue = 30.5f, thirdValue = 40.5f;
+                float firstValue = 40.5f, secondValue = 30.5f, thirdValue = 25.5f;
                 float expected = 40.5f;
                 FindMaximum find = new FindMaximum();
                 float actual = find.MaximumValue(firstValue, secondValue, thirdValue);
