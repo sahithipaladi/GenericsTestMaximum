@@ -5,39 +5,63 @@ namespace unittest
     [TestClass]
     public class UnitTest1
     {
-        //TC1.1
+
+        /// <summary>
+        /// TC 1.1 -Maximum Number at first value
+        /// </summary>
         [TestMethod]
         public void TestMethod1()
         {
-
-            //Max String at 1st Position
-            string firstValue = "Peach", secondValue = "Banana", thirdValue = "Apple";
-            string expected = "Peach";
-            FindMaximum find = new FindMaximum();
-            string actual = find.MaximumValue(firstValue, secondValue, thirdValue);
+            ///AAA Methodology
+            //Arrange
+            int[] intArray = { 10, 20, 30 };
+            int expected = 30;
+            //Act
+            MaximumAmongThree<int> max = new MaximumAmongThree<int>(intArray);
+            int actual = max.FindMaxValue();
+            //Assert
             Assert.AreEqual(expected, actual);
         }
+        /// <summary>
+        /// TC 1.2 -Maximum Number at second value
+        /// </summary>
         [TestMethod]
         public void TestMethod2()
         {
-            //Max String at 2nd Position
-            string firstValue = "Banana", secondValue = "Peach", thirdValue = "Apple";
-            string expected = "Peach";
-            FindMaximum find = new FindMaximum();
-            string actual = find.MaximumValue(firstValue, secondValue, thirdValue);
+            ///AAA Methodology
+            //Arrange
+            float[] floatArray = { 10.3f, 20.3f, 30.3f };
+            float expected = 30.3f;
+            //Act
+            MaximumAmongThree<float> max = new MaximumAmongThree<float>(floatArray);
+            float actual = max.FindMaxValue();
+            //Assert
             Assert.AreEqual(expected, actual);
         }
+        /// <summary>
+        /// TC 1.3 -MAximum Number at third value
+        /// </summary>
         [TestMethod]
         public void TestMethod3()
         {
-            //Max String at 3rd Position
-            string firstValue = "Apple", secondValue = "Banana", thirdValue = "Peach";
+            ///AAA Methodology
+            //Arrange
+            string[] strArray = { "Apple", "Banana", "Peach" };
             string expected = "Peach";
-            FindMaximum find = new FindMaximum();
-            string actual = find.MaximumValue(firstValue, secondValue, thirdValue);
+            //Act
+            MaximumAmongThree<string> max = new MaximumAmongThree<string>(strArray);
+            string actual = max.FindMaxValue();
+            //Assert
             Assert.AreEqual(expected, actual);
+
         }
+
 
 
     }
 }
+
+
+
+
+           
