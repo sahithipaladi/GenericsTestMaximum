@@ -6,20 +6,24 @@ namespace Generics_Test_Maximum
 {
     public class MaximumAmongThree<T> where T : IComparable
     {
-        public T[] array;
+        public T[] inputArray;
         public MaximumAmongThree(T[] array)
         {
-            this.array = array;
+            this.inputArray = array;
         }
-        public T[] Sort()
+        public T[] SortArray()
         {
-            Array.Sort(array);
-            return array;
+            Array.Sort(inputArray);
+            return inputArray;
         }
         public T FindMaxValue()
         {
-            T[] sorted = this.Sort();
+            T[] sorted = this.SortArray();
             return sorted[sorted.Length - 1];
+        }
+        public void PrintMax()
+        {
+            Console.WriteLine("Maximum Value is : " + this.FindMaxValue());
         }
     }
 }

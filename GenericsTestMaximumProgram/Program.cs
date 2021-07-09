@@ -15,9 +15,9 @@ namespace Generics_Test_Maximum
             MaximumAmongThree<float> max2 = new MaximumAmongThree<float>(floatArray);
             MaximumAmongThree<string> max3 = new MaximumAmongThree<string>(stringArray);
 
-            Console.WriteLine("Maximum Integer Number : " + max1.FindMaxValue());
-            Console.WriteLine("Maximum Float Number : " + max2.FindMaxValue());
-            Console.WriteLine("Maximum String : " + max3.FindMaxValue());
+            max1.PrintMax();
+            max2.PrintMax();
+            max3.PrintMax();
 
         }
     }
